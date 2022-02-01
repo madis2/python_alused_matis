@@ -17,15 +17,13 @@ print("Vastus: ruudu pindala on",pindala ,"cm^2")
 
 #Harjutamise asjad
 
-'''
 nimi = input("Lisa siia oma nimi:")
 print ("Tere", nimi+"!") # + ei lisa tühikut
 vanus = int(input("Lisa siia oma vanus:"))
 vanuste_vahe = 17-vanus
 print("Meie vanuse vahe on:",vanuste_vahe,"aastat")
-'''
 
-'''
+
 a = 12
 b = 18
 s=a*b
@@ -33,7 +31,6 @@ print (s)
 p = 2*(a+b)
 print ("pindala",s,"ruutmeetrit")
 print ("ümbermõõt",p,"meetrit")
-'''
 
 '''
 print ("olamiamigos") #sõne, string
