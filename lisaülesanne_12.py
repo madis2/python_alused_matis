@@ -3,6 +3,8 @@
 # IT-21
 # 02.03.2022
 
+# Kalkulaator EUR-EEK ja vastupidi.
+
 # Teen funktsioonid
 
 def eur_eek(a):
