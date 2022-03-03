@@ -6,6 +6,9 @@
 
 # Teen funktsioonid
 
+print('Eurost - Krooni kalkulaator (töötab ka vastupidi)')
+print('──────────────────────────────────────────────────')
+
 def eur_eek(a):
     'funktsioon eurost krooni'
     EEK = 15.6466
@@ -19,15 +22,26 @@ def eek_eur(a):
     return v
 
 # Küsin kasutajalt kumba valuutat soovib vahetada.
+# Kui kasutaja sisestab valesti, siis tuleb teade.
 
 val = input('Mida soovid vahetada (EUR/EEK): ')
-print('───────────────────────────────────')
+print('──────────────────────────────────────────────────')
 
 if val == 'EUR':
     a = int(input('Sisesta euro kogus: '))
     v = eur_eek(a)
     print(f'Kroonides: {v} krooni')
-else:
+elif val == 'eur':
+    a = int(input('Sisesta euro kogus: '))
+    v = eur_eek(a)
+    print(f'Kroonides: {v} krooni')
+elif val == 'EEK':
     a = int(input('Sisesta krooni kogus: '))
     v = eek_eur(a)
     print(f'Eurodes: {v}€')
+elif val == 'eek':
+    a = int(input('Sisesta krooni kogus: '))
+    v = eek_eur(a)
+    print(f'Eurodes: {v}€')
+else:
+    print('Sisestasite valesti. Palun sisestage "EUR" või "EEK"')
