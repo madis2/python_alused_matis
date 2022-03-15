@@ -23,12 +23,11 @@ kk = turtle.Turtle()
 kk.right(90)
 
 for i in range(turn):
+    kk.left(90)
     kk.forward(100)
     kk.left(90)
     kk.forward(50)
     kk.left(90)
     kk.forward(150)
-    kk.left(90)
-    kk.forward(100)
     
 turtle.exitonclick()
